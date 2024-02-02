@@ -50,7 +50,6 @@ public String reverse(String str)
     }
     return sNew;
 }
-}
 
 public String noSpaces(String sWord){
   String s = "";
