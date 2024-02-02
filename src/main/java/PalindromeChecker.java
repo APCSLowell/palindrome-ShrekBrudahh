@@ -3,8 +3,7 @@ import java.io.FileNotFoundException;  // Import this class to handle errors
 import java.util.Scanner; // Import the Scanner class to read text files
 
 public class PalindromeChecker {
-public void tester()
-{
+public void tester(){
   //String lines[] = loadStrings("palindromes.txt");
   String[] lines = new String[6]; 
     try{
@@ -50,7 +49,6 @@ public String reverse(String str)
     }
     return sNew;
 }
-
 public String noSpaces(String sWord){
   String s = "";
   for (int i = 0; i < sWord.length(); i++){
@@ -61,4 +59,5 @@ public String noSpaces(String sWord){
     }
   }
   return s;
+}
 }
